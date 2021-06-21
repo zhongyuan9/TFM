@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MqttBle</string>
+
+    <string name="action_test">Stress test</string>
+    <string name="action_retry_discover">Retry Discover</string>
+
+    <string name="notifyTitle">Tips</string>
+    <string name="gpsNotifyMsg">Bluetooth scanning requires the location be turned on.</string>
+    <string name="setting">Setting</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="scan_fail">Scan Failed, ErrorCode = %1$s</string>
+    <string name="expand_search_settings">Expand scanning settings</string>
+    <string name="retrieve_search_settings">Collapse scanning settings</string>
+    <string name="connect_fail">Connection failed</string>
+    <string name="disconnected">Disconnect</string>
+    <string name="please_open_blue">Please turn on Bluetooth settings first</string>
+    <string name="select_operation_type">Select action type</string>
+    <string name="characteristic">Characteristic</string>
+    <string name="property">Property</string>
+    <string name="data_changed">\'s Data change:</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="open_notification">Enable Notification</string>
+    <string name="close_notification">Disable Notification</string>
+    <string name="service_list">Service list</string>
+    <string name="characteristic_list">Characteristic list</string>
+    <string name="property_list">Property list</string>
+    <string name="console">Operation Console</string>
+    <string name="name">Broadcast Name：</string>
+    <string name="mac">Mac:</string>
+    <string name="service">Service</string>
+    <string name="type">Service type(Main Service)</string>
+    <string name="scan_setting">Set the filtering rules of the scanned device, accepting is empty</string>
+    <string name="setting_name">Broadcast Name,Separated by multiple commas</string>
+    <string name="setting_mac">Mac Address,Separated by multiple commas</string>
+    <string name="setting_uuid">Device UUID,Separated by multiple commas</string>
+    <string name="input_hex">HEX format command</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enter">Enter</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Por favor elija lo que necesita"
+        android:textColor="#E41111"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ble"
+        android:textColor="#5910DB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="abrble"/>
+
+    <Button
+        android:id="@+id/btn_Mqtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MQTT"
+        android:textColor="#5910DB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="abrmqtt"/>
+
+</LinearLayout>
